@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ✅ Google Site Verification Meta Tag -->
+    <meta name="google-site-verification" content="XYZ12345abcdef">
+
     <title>Advanced Age Calculator</title>
     <style>
         body {
@@ -74,7 +78,7 @@
 
             document.getElementById("result").innerText = `Your age is: ${ageYears} years, ${ageMonths} months, and ${ageDays} days.`;
             
-            // Next Birthday Calculation
+            // ✅ Next Birthday Calculation
             let nextBirthday = new Date(today.getFullYear(), dobDate.getMonth(), dobDate.getDate());
             if (nextBirthday < today) {
                 nextBirthday.setFullYear(today.getFullYear() + 1);
